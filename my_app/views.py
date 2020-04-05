@@ -10,6 +10,7 @@ from bs4.element import Tag
 BASE_CRAIGSLIST_URL = 'https://manila.craigslist.org/search/?query={}'
 BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
 
+
 def home(request):
     return render(request, 'base.html')
 
